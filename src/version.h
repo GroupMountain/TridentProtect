@@ -2,9 +2,9 @@
 #define PLUGIN_VERSION_DEV 0
 #define PLUGIN_VERSION_BETA 1
 #define PLUGIN_VERSION_RELEASE 2
-#define PLUGIN_NAME "plhooktest"
-#define PLUGIN_INTRODUCTION "plhooktest"
-#define PLUGIN_AUTHOR "Me"
+#define PLUGIN_NAME "TridentProtect"
+#define PLUGIN_INTRODUCTION "Protect Trident"
+#define PLUGIN_AUTHOR "GroupMountain"
 
 #define PLUGIN_VERSION_MAJOR 0
 #define PLUGIN_VERSION_MINOR 1
@@ -15,15 +15,14 @@
 #define PLUGIN_VERSION_STATUS PLUGIN_VERSION_DEV
 
 // The target protocol version of your plugin. If you do not know how to set it,
-// please start the latest version of LiteLoaderBDS and get the protocol version.
-// If you are confident about the version compatibility of your plugin, you can
-// just comment this line (NOT RECOMMENDED).
-#define TARGET_BDS_PROTOCOL_VERSION 582
+// please start the latest version of LiteLoaderBDS and get the protocol
+// version. If you are confident about the version compatibility of your plugin,
+// you can just comment this line (NOT RECOMMENDED).
+#define TARGET_BDS_PROTOCOL_VERSION 594
 
 // ***************************************************************************************
 // ***************************************************************************************
 // ***************************************************************************************
-
 
 // File version information, which is used in Resource.rc
 #define __TO_VERSION_STRING(ver) #ver
@@ -51,7 +50,7 @@
 
 #define FILE_VERSION_BLOCK_HEADER 0x04004B0L
 #define FILE_VERSION_COMPANY_NAME PLUGIN_AUTHOR
-#define FILE_VERSION_LEGAL_COPYRIGHT "Copyright (C) 2022"
+#define FILE_VERSION_LEGAL_COPYRIGHT "Copyright (C) 2023"
 #define FILE_VERSION_FILE_DESCRIPTION PLUGIN_INTRODUCTION
 #define FILE_VERSION_FILE_VERSION_STRING PLUGIN_FILE_VERSION_STRING
 #define FILE_VERSION_INTERNAL_NAME PLUGIN_NAME

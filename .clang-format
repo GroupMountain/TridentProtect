@@ -1,0 +1,4 @@
+Language:        Cpp
+BasedOnStyle:  Google
+ColumnLimit:    10000
+SortIncludes:   false
